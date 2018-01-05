@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapViewPlace"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tvPlaceName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mapViewPlace"
+            android:background="#8c8c8c"
+            android:gravity="start|center"
+            android:paddingStart="20dp"
+            android:text="@string/tvPlaceName"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPlaceAddress"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvPlaceName"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/place_address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:id="@+id/tvPlaceAddressLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvPlaceAddress"
+            android:layout_below="@+id/tvPlaceAddress"
+            android:layout_marginTop="18dp"
+            android:text="@string/place_address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272" />
+
+        <TextView
+            android:id="@+id/tvPlaceWorkingHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvPlaceAddressLabel"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/placeWorkingHours"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:id="@+id/tvPlaceWorkingHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvPlaceAddress"
+            android:layout_below="@+id/tvPlaceWorkingHours"
+            android:layout_marginTop="18dp"
+            android:text="@string/placeWorkingHours"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272" />
+
+        <TextView
+            android:id="@+id/tvPlacePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvPlaceWorkingHoursLabel"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="36dp"
+            android:autoLink="phone"
+            android:text="@string/placePhone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#212121" />
+
+        <TextView
+            android:id="@+id/tvPlacePhoneLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvPlaceAddress"
+            android:layout_below="@+id/tvPlacePhone"
+            android:layout_marginTop="18dp"
+            android:text="@string/placePhone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#727272" />
+
+        <Button
+            android:text="@string/placeBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlacePhoneLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/buttonPlaceBook" />
+
+    </RelativeLayout>
+</ScrollView>

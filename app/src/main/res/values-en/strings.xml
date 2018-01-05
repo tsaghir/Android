@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sport-Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="korisnicko_ime">Username</string>
+    <string name="lozinka">Password</string>
+    <string name="nemate_racun">Don\'t Have an Account? Register Here.</string>
+    <string name="prijava">Sign in</string>
+    <string name="e_mail">E-mail</string>
+    <string name="korisnicko_imeR">Username</string>
+    <string name="adresaR">Address</string>
+    <string name="broj_telefonaR">Phone Number</string>
+    <string name="imeR">First name</string>
+    <string name="lozinkaR">Password</string>
+    <string name="ponovite_lozinkuR">Repeat the password</string>
+    <string name="prezimeR">Last Name</string>
+    <string name="registracijaR">Register</string>
+
+    <color name="background">#FFFFFF</color>
+    <string name="title_activity_aaaaaaa">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="profileLastName">Last Name</string>
+    <string name="profileName">First Name</string>
+    <string name="profileEmail">E-mail</string>
+    <string name="profileAddress">Address</string>
+    <string name="profilePhone">Phone Number</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_places_list">List of Sports Facilities</string>
+    <string name="nav_my_places">My Sport Facilities</string>
+    <string name="nav_my_reservations">My Reservations</string>
+    <string name="nav_add_new_reservation">Add a New Term</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Logout</string>
+    <string name="place_name">Object Name</string>
+    <string name="place_address">Address</string>
+    <string name="place_number">Phone Number</string>
+    <string name="place_working_hours_start">Working Hours - Start</string>
+    <string name="place_working_hours_end">Working Hours - End</string>
+    <string name="place_image_link">Image URL</string>
+    <string name="PlaceAdd">Add a New object</string>
+    <string name="PlaceContinue">Continue…</string>
+    <string name="appointment_hours_start">Starting Time of a Term</string>
+    <string name="appointment_hours_end">Ending Time of a Term</string>
+    <string name="appointment_max_player">Max Participants</string>
+    <string name="appointment_pass">Confirmation Password</string>
+    <string name="tvPlacePeriod">Enter an URL of a Desired Image or Upload One Manually. In the Next Window you\'ll be able to add Terms for the Entered Facility.</string>
+
+    <string name="tvPlaceName">Facility Name</string>
+    <string name="placeAddress">Address</string>
+    <string name="placeWorkingHours">Working Hours</string>
+    <string name="place_working_hours">Working Hours</string>
+    <string name="placePhone">Contact</string>
+    <string name="placeBook">Book a Term</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reservationCalendarText">Choose a Date:</string>
+    <string name="reservationAppointmentText">Term, Sport, No of Participants:</string>
+    <string name="appointmentPrivatePublic">Private Term</string>
+    <string name="buttonSetAppointment">Create a Term</string>
+    <string name="buttonAddAppointment">Add a New Term</string>
+    <string name="buttonObjectAppointments">Reserved Terms</string>
+    <string name="buttonChangeProfilePicture">Upload Image</string>
+    <string name="myAppointmentPlace">Date</string>
+    <string name="myAppointmentTime">Term</string>
+    <string name="myAppointmentAddress">Address</string>
+    <string name="myAppointmentType">Sport</string>
+    <string name="myAppointmentPlayers">No of Participants</string>
+    <string name="myAppointmentID">Reservation ID</string>
+    <string name="myAppointmentConfirm">Confirm your Arrival</string>
+    <string name="myAppointmentDelete">Delete the reservation</string>
+    <string name="tvAppointmentLabel">Choose a date:</string>
+    <string name="myPlaceName">Name</string>
+    <string name="myPlaceAddress">Address</string>
+    <string name="navBarUserName">User: First Name and Last Name</string>
+    <string name="navBarUserEmail">sport.manager@email.com</string>
+    <string name="placeName">Name</string>
+    <string name="friendsName">Friends Name</string>
+    <string name="PlaceAddPicture">Image upload</string>
+    <string name="reservationSportName">Sport</string>
+    <string name="reservationDate">Date</string>
+    <string name="reservationStart">Start</string>
+    <string name="place_appointment_date">Date</string>
+    <string name="place_appointment_sport_name">Sport</string>
+    <string name="placeUser">Reserved by</string>
+    <string name="placeOtherUsers">Invited Users</string>
+    <string name="placeAppointmentID">Reservation ID</string>
+    <string name="appointmentPassword">Create a password</string>
+    <string name="reservationPlaceName">Facility name</string>
+    <string name="about">This application was built as a project within the Software Analysis and Development course on the Faculty of Organization and Informatics. The team that was working on the application consists of four members: Rober Pizek, Karlo Šimunović, Tarek Saghit and Marko Flajšek.</string>
+    <string name="appointmentDelete">Delete the reservation</string>
+    <string name="autoCompleteFriendsName">Enter the users e-mail</string>
+    <string name="btnInviteFriendAdd">Add</string>
+    <string name="btnInviteFriendsFinish">Complete the reservation</string>
+    <string name="edInviteTeamName">Team name</string>
+    <string name="email">Send an e-mail</string>
+    <string name="phone">If you\'d like, as a registered user, to obtain the possibility of adding your own facilities or to report a bug in this application, you can contact us via e-mail.</string>
+
+    //various titles
+    <string name="titleRegisterActivity">Registration</string>
+    <string name="titleProfileActivity">My profile</string>
+    <string name="titleSettingsActivity">Settings</string>
+    <string name="titleTimePicker">Choose time</string>
+    <string name="titleAllPlacesActivity">Sports facilities</string>
+    <string name="toastTermAddedTrue">You have successfully added a new session!</string>
+    <string name="toastTermAddedFalse">Adding a session was unsuccessful:</string>
+    <string name="toastFacilityAddedTrue">You have successfully added a new facility!</string>
+    <string name="toastFacilityAddedFalse">Adding a facility was unsuccessful:</string>
+    <string name="progressDataLoading">Loading data</string>
+    <string name="toastInviteFriendsAuto">You were automatically added to the team!</string>
+    <string name="toastInviteFriendsAdded">The user is already on the list!</string>
+    <string name="toastInviteFriendsNotFound">The desired user does not exist!</string>
+    <string name="progressReservationCreation">Creating a reservation</string>
+    <string name="toastReservationComplete">You have successfully reserved a session!</string>
+    <string name="alertLogin">Error during data loading!</string>
+    <string name="toastNoTermsForFacility">"No available sessions for the selected facility"</string>
+    <string name="toastAppointmentDeleted">You have successfully deleted the session!</string>
+    <string name="toastNoTerm">There are no sessions</string>
+    <string name="toastNoFacilities">You don\'t currently have any facilities!</string>
+    <string name="toastReservationDeleted">You have successfully deleted the reservation</string>
+    <string name="toastNoReservation">There aren\'t any reservations</string>
+    <string name="toastNoReservations">You don\'t have any reservations!</string>
+    <string name="toastTermDeletionSuccessful">You have successfully deleted the session!</string>
+    <string name="toastAppointmentConfirmation">The session was successfully confirmed!</string>
+    <string name="toastError">Error</string>
+    <string name="progressMapLoading">Loading map</string>
+    <string name="toastMapUnavailable">Unable to load the map!</string>
+    <string name="toastRegistrationSuccessful">You have successfully registered!</string>
+    <string name="toastRegistrationFailed">The registration was unsuccessful:</string>
+    <string name="progressTermsLoading">Term loading</string>
+    <string name="errorFieldNecessary">This field is mandatory</string>
+
+    <string name="nfcSwitch">NFC module</string>
+    <string name="passwordSwitch">Password module</string>
+    <string name="btnDeactivateUserAccount">Deactivate my account</string>
+    <string name="tvChooseLanguage">Language</string>
+    <string name="nav_about">About us</string>
+    <string name="titleAboutActivity">About us</string>
+    <string name="titleAddAppointmentActivity">Add a session</string>
+    <string name="titleAddPlaceFragment">Add a sports facility</string>
+    <string name="titleInviteFriendsActivity">Invitation of friends</string>
+    <string name="titleMyPlacesActivity">My Sports facilities</string>
+    <string name="titleMyPlacesAppointmentFragment">Terms in a facility</string>
+    <string name="titleMyPlacesReservationActivity">My Facility reservations</string>
+    <string name="titleMyReservationsActivity">My reservations</string>
+    <string name="titlePlaceDetailsActivity">Facility details</string>
+    <string name="titleReservationActivity">Term reservations</string>
+    <string name="errorEmailInvalid">E-mail not valid</string>
+    <string name="errorMinOneParticipant">At least one participant is required</string>
+    <string name="errorPasswordMatching">Passwords don\'t match</string>
+    <string name="errorUsernameNotFound">Username does not exist</string>
+    <string name="errorWorkingHours">Working hours aren\'t valid</string>
+    <string name="errorWrongPassword">Wrong password</string>
+    <string name="progressDataCheck">Checking data</string>
+    <string name="toastNoModule">The module isn\'t turned on, check your settings</string>
+    <string name="toastAppointmentCheck">The owner has noted your arrival. Feel free to refresh your reservation\'s window to check.</string>
+    <string name="tvNotificationsSwitch">Notifications</string>
+
+    <string-array name="languages_array">
+        <item>Croatian</item>
+        <item>English</item>
+    </string-array>
+    <string name="btnDeleteReservation">Delete term</string>
+    <string name="tvMaxPlayers">Maximum No. of participants</string>
+    <string name="tvPasswordAppointment">Term password</string>
+    <string name="tvDateTerm">Date</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvAppointmentLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/calendarViewAppointment"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/tvAppointmentLabel"
+            android:textSize="15sp" />
+
+        <CalendarView
+            android:id="@+id/calendarViewAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/tvAppointmentLabel"
+            android:layout_centerHorizontal="true"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txiAppointmentHourStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calendarViewAppointment"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/etAppointmentHourStart"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/calendarViewAppointment"
+                android:ems="10"
+                android:hint="@string/appointment_hours_start" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txiAppointmentHourStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txiAppointmentHourStart"
+            android:layout_below="@+id/txiAppointmentHourStart">
+
+            <EditText
+                android:id="@+id/etAppointmentHourEnd"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etAppointmentHourStart"
+                android:ems="10"
+                android:hint="@string/appointment_hours_end"
+                android:inputType="time" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txiMaxPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txiAppointmentHourStop"
+            android:layout_below="@+id/txiAppointmentHourStop">
+
+            <EditText
+                android:id="@+id/etMaxplayer"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etAppointmentHourEnd"
+                android:ems="10"
+                android:hint="@string/appointment_max_player"
+                android:inputType="number"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txiPaswordA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txiMaxPlayer"
+            android:layout_below="@+id/txiMaxPlayer"
+            android:layout_marginBottom="25dp">
+
+            <EditText
+                android:id="@+id/etPasswordA"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etMaxplayer"
+                android:ems="10"
+                android:hint="@string/appointment_pass"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonSetAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txiPaswordA"
+            android:text="@string/buttonSetAppointment"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

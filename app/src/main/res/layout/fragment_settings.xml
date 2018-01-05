@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foi.air1603.sport_manager.view.fragments.SettingsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nfcSwitch"
+        android:layout_marginStart="20dp"
+        android:layout_alignBaseline="@+id/switchNFC"
+        android:layout_alignBottom="@+id/switchNFC"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tvNFCSwitch" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passwordSwitch"
+        android:id="@+id/tvPasswordSwitch"
+        android:layout_alignBaseline="@+id/switchPassword"
+        android:layout_alignBottom="@+id/switchPassword"
+        android:layout_alignStart="@+id/tvNFCSwitch" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNotificationsSwitch"
+        android:id="@+id/tvNotificationSwitch"
+        android:layout_alignBaseline="@+id/switchNotification"
+        android:layout_alignBottom="@+id/switchPassword"
+        android:layout_alignStart="@+id/tvPasswordSwitch" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchNFC"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/switchPassword"
+        android:layout_alignStart="@+id/switchPassword" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchPassword"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchNotification"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/switchNFC"
+        android:layout_alignStart="@+id/switchNFC" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/switchNotification"
+        android:layout_alignEnd="@+id/switchNotification" />
+
+    <TextView
+        android:text="@string/tvChooseLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignStart="@+id/tvPasswordSwitch"
+        android:id="@+id/tvChooseLanguage" />
+
+
+</RelativeLayout>

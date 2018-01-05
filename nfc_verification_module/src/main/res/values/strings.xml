@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Potvrda putem NFC-a</string>
+    <string name="nfcInstruction">Prislonite svoj uređaj uređaju vlasnika sportskog objekta te nekon što se smanji prikaz zaslona, pritisnite na umanjenu sliku kako biste potvrdili dolazak</string>
+</resources>

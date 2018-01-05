@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_place_reservation"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    card_view:cardElevation="3dp"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/appointment_image"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="16dp"
+            android:layout_alignTop="@+id/appointment_date"/>
+
+        <TextView
+            android:text="@string/tvDateTerm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointment_date"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"
+            android:layout_marginTop="14dp"
+            android:textIsSelectable="false"
+            android:textColor="#212121"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/appointment_image"/>
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/appointment_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:textColor="#757575"
+            tools:text="@string/appointment_hours_end"
+            android:layout_marginLeft="-12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_toEndOf="@+id/appointment_start"
+            android:layout_alignBaseline="@+id/appointment_start"/>
+
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/appointment_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:layout_marginEnd="16dp"
+            android:textColor="#757575"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            tools:text="@string/reservationStart"
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info"
+            android:layout_below="@+id/appointment_date"
+            android:layout_alignStart="@+id/appointment_date" />
+
+        <TextView
+            android:text="@string/tvMaxPlayers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointment_image"
+            android:layout_alignStart="@+id/appointment_image"
+            android:layout_marginTop="20dp"
+            android:id="@+id/appointment_max_players" />
+
+        <TextView
+            android:text="@string/tvPasswordAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointment_max_players"
+            android:layout_alignStart="@+id/appointment_max_players"
+            android:layout_marginTop="8dp"
+            android:id="@+id/appointment_password" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="#212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/appointment_id2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="40dp"/>
+
+        <Button
+            android:text="@string/btnDeleteReservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/appointment_delete"
+            android:layout_marginTop="140dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#039be5"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

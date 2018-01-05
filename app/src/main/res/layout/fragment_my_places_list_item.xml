@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    card_view:cardElevation="3dp"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/my_place_name"
+            android:textSize="18sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="11dp"
+            android:textColor="#212121"
+            android:textIsSelectable="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            tools:text="@string/myPlaceName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/my_place_address"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textIsSelectable="false"
+            android:layout_marginTop="5dp"
+            android:paddingStart="8dp"
+            android:textColor="#757575"
+            tools:text="@string/myPlaceAddress"
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info"
+            android:layout_below="@+id/my_place_name"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/my_place_image"
+            android:layout_height="80dp"
+            android:layout_width="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:paddingTop="4dp"
+            android:layout_marginEnd="13dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/my_place_name"/>
+
+        <Button
+            android:text="@string/buttonAddAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_my_place_add_appointment"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#039be5"/>
+
+        <Button
+            android:text="@string/buttonObjectAppointments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_my_place_reserved"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#039be5"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/btn_my_place_add_appointment" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

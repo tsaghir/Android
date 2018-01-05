@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+            android:id="@+id/calendarViewReservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvReservationDateLabel"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tvReservationDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/calendarViewReservation"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="23dp"
+            android:text="@string/reservationCalendarText"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/reservationAppointmentImage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/tvReservationAppointmentLabel"
+            android:layout_below="@+id/calendarViewReservation"
+            android:layout_marginTop="55dp"
+            android:src="@mipmap/ic_schedule_black_48dp" />
+
+        <TextView
+            android:id="@+id/tvReservationAppointmentLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/calendarViewReservation"
+            android:layout_alignStart="@+id/tvReservationDateLabel"
+            android:text="@string/reservationAppointmentText"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinnerAppointments"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/reservationAppointmentImage"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/reservationAppointmentImage" />
+
+        <Spinner
+            android:id="@+id/spinnerPlayers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/spinnerAppointments"
+            android:layout_marginStart="256dp"/>
+
+        <ImageView
+            android:id="@+id/reservationPlayersImage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvReservationAppointmentLabel"
+            android:layout_alignTop="@+id/reservationAppointmentImage"
+            android:layout_marginStart="225dp"
+            android:src="@mipmap/ic_group_black_48dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/reservationAppointmentImage"
+            android:layout_alignStart="@+id/tvReservationAppointmentLabel"
+            android:src="@mipmap/ic_casino_black_48dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/reservationSportImage"/>
+
+        <Spinner
+            android:id="@+id/spinnerSports"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerAppointments"
+            android:layout_alignLeft="@+id/spinnerAppointments"
+            android:layout_alignTop="@+id/reservationSportImage"
+            android:layout_marginTop="-4dp"
+            tools:ignore="RtlHardcoded" />
+
+        <Switch
+            android:id="@+id/switchAppointmentPrivate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="@string/appointmentPrivatePublic"
+            tools:ignore="RtlHardcoded"
+            android:layout_below="@+id/reservationAppointmentImage"
+            android:layout_alignStart="@+id/reservationAppointmentImage"
+            android:layout_alignEnd="@+id/calendarViewReservation"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/buttonSetAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/buttonSetAppointment"
+            android:layout_below="@+id/switchAppointmentPrivate"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

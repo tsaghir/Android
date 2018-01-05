@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813056460266",
+    "firebase_url": "https://sport-manager-abb3c.firebaseio.com",
+    "project_id": "sport-manager-abb3c",
+    "storage_bucket": "sport-manager-abb3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813056460266:android:60c729eef89763cf",
+        "android_client_info": {
+          "package_name": "com.foi.air1603.sport_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813056460266-v14ih93jh8jasjmrcudjcnkfncp0f66f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foi.air1603.sport_manager",
+            "certificate_hash": "5FBB64701B6849A3D86BB8A68D5D053F4F309309"
+          }
+        },
+        {
+          "client_id": "813056460266-fcrgud006rt3vq2nsh79ki58lup0bmk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_U6_mvHZxxZHg7iGHR-FzwpyUc0iBrCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813056460266-fcrgud006rt3vq2nsh79ki58lup0bmk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
